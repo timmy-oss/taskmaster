@@ -319,7 +319,6 @@ function TodoContainer() {
         <div className="ring-2 bg-transparent min-h-screen max-h-screen overflow-y-auto pb-12 my-1 space-y-4 ring-gray-700/40 rounded-lg p-4  ">
           {todos.map((todo, i) => (
             <Todo
-              key={i}
               updateTodo={updateTodo}
               deleteTodo={deleteTodo}
               updateFormState={updateFormState}
