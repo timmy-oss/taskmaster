@@ -145,7 +145,7 @@ function TodoContainer() {
     );
   };
   return (
-    <div className=" bg-[url('/s.jpg')] min-h-screen bg-no-repeat bg-fixed  w-full fixed left-0 right-0  bg-red-400 ">
+    <div className=" bg-[url('/s.jpg')] min-h-screen bg-no-repeat bg-fixed  w-full fixed left-0 right-0  ">
       {!numberOfOpenForms && (
         <ToggleableAddButton
           toggleToAddButton={() => {
