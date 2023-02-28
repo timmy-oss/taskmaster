@@ -40,7 +40,7 @@ function ToggleableAddButton({
     );
 
   return (
-    <div className="absolute z-[2] lg:scale-75  rounded-full right-8 lg:right-8 mx-auto top-[90vh] lg:top-[85vh]">
+    <div className="absolute z-[2] lg:scale-75  rounded-full right-8 lg:right-8 mx-auto top-[75vh] lg:top-[85vh]">
       <i
         onClick={toggleToEdit}
         title="Add new task"
