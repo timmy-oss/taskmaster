@@ -165,7 +165,7 @@ function TodoContainer() {
       )}
 
       <div className=" mx-auto left-0 right-0  bg-black max-w-xl">
-        <div className="  text-white max-w-xl  text-center p-3  font-bold select-none top-0 z-10 right-0 left-0 bg-transparent ">
+        <div className="  text-white max-w-xl  text-center p-2  font-bold select-none top-0 z-10 right-0 left-0 bg-transparent ">
           <p
             title="By Timileyin Pelumi"
             className={
@@ -183,9 +183,9 @@ function TodoContainer() {
             TaskMaster
           </p>
 
-          <hr
+          {/* <hr
             className={
-              "my-2 mb-4 bg-black text-base  border border-dotted p-1" +
+              "my-2 mb-2 hidden bg-black text-base  p-1" +
               (themePreference === "Blue"
                 ? "text-blue-500 border-blue-500"
                 : themePreference === "Green"
@@ -194,7 +194,7 @@ function TodoContainer() {
                 ? "text-red-500 border-red-500"
                 : "")
             }
-          />
+          /> */}
           <div className="flex flex-row items-center justify-around">
             <div className="">
               <p
@@ -276,7 +276,16 @@ function TodoContainer() {
                 Showing :{" "}
               </p>
               <select
-                className="text-gray-700  text-sm cursor-pointer text-center ring-2 border-2 hover:text-gray-800/70  border-black  ring-white ring-offset-3 rounded p-1 m-2 font-bold "
+                className={
+                  "text-gray-700  text-sm cursor-pointer text-center ring-2 border-2 hover:text-gray-800/70  border-black  ring-white ring-offset-3 rounded p-1 m-2 font-bold " +
+                  (themePreference === "Blue"
+                    ? "text-blue-500 border-blue-500"
+                    : themePreference === "Green"
+                    ? "text-green-500 border-green-500"
+                    : themePreference === "Red"
+                    ? "text-red-500 border-red-500"
+                    : "")
+                }
                 value={filterPreference}
                 onChange={handleFilterPreferenceChange}
                 name="filterBy"
