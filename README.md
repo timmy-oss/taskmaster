@@ -12,8 +12,6 @@ TaskMaster is a simple and user-friendly todo app that lets you manage your task
 
 > Preview 
 
-![image](https://user-images.githubusercontent.com/82800805/221742593-90f8da83-3c7a-454f-862c-878d14b464c6.png)
+![image](https://user-images.githubusercontent.com/82800805/222701908-5910c1d3-090c-40b7-8d8b-a0c691918487.png)
 
-![image](https://user-images.githubusercontent.com/82800805/221742576-96302748-cdd4-45c7-bb11-fb469d022a8c.png)
-
-
+![image](https://user-images.githubusercontent.com/82800805/222701932-70cdd4db-aa74-476d-b877-30ebdaa2dc34.png)
