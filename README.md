@@ -1,6 +1,7 @@
 # Taskmaster
 
-![logo](https://user-images.githubusercontent.com/82800805/221742425-8873c99e-1615-45d6-b2f9-1436c992fdc1.png)
+![logo (1)](https://user-images.githubusercontent.com/82800805/222701152-78316fa1-bb10-4201-9476-70a7da16a050.png)
+
 
 
 TaskMaster is a simple and user-friendly todo app that lets you manage your tasks with ease. With multiple color themes, filtering options, and the ability to edit and update tasks, it helps you stay organized. It uses local storage for background saving and data persistence, allowing you to pick up where you left off on any device. TaskMaster is the perfect tool for staying on top of work tasks, personal projects, or daily to-do lists.
