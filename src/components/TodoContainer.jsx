@@ -167,9 +167,8 @@ function TodoContainer() {
       <div className=" mx-auto left-0 right-0  bg-black max-w-xl">
         <div className="  text-white max-w-xl  text-center p-2  font-bold select-none top-0 z-10 right-0 left-0 bg-transparent ">
           <p
-            title="By Timileyin Pelumi"
             className={
-              "text-center font-black text-xl lg:text-2xl p-4 " +
+              "text-center font-black text-xl lg:text-2xl pb-2 " +
               (themePreference === "Blue"
                 ? "text-blue-700 border-blue-500"
                 : themePreference === "Green"
@@ -179,22 +178,9 @@ function TodoContainer() {
                 : "")
             }
           >
-            {" "}
             TaskMaster
           </p>
 
-          {/* <hr
-            className={
-              "my-2 mb-2 hidden bg-black text-base  p-1" +
-              (themePreference === "Blue"
-                ? "text-blue-500 border-blue-500"
-                : themePreference === "Green"
-                ? "text-green-500 border-green-500"
-                : themePreference === "Red"
-                ? "text-red-500 border-red-500"
-                : "")
-            }
-          /> */}
           <div className="flex flex-row items-center justify-around">
             <div className="">
               <p
