@@ -164,7 +164,7 @@ function TodoContainer() {
         />
       )}
 
-      <div className=" mx-auto left-0 right-0  bg-black max-w-xl">
+      <div className=" mx-auto left-0 right-0  bg-black max-w-xl ">
         <div className="  text-white max-w-xl  text-center p-2  font-bold select-none top-0 z-10 right-0 left-0 bg-transparent ">
           <p
             className={
@@ -311,7 +311,7 @@ function TodoContainer() {
             </div>
           </div>
         </div>
-        <div className="ring-2 bg-transparent min-h-screen max-h-screen overflow-y-auto pb-12 my-1 space-y-4 ring-gray-700/40 rounded-lg p-4  ">
+        <div className="ring-2 ring-white/70 md:ring-transparent bg-transparent min-h-screen max-h-screen overflow-y-auto pb-12 my-1 space-y-4  rounded-lg p-4  ">
           {todos.map((todo, i) => (
             <Todo
               updateTodo={updateTodo}
